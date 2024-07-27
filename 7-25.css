@@ -1,0 +1,57 @@
+/* 全局控制 */
+body{font-size: 12px; font-family: "宋体"; color: #515151;}
+/* 重置浏览器的默认样式 */
+body，h2，form，table{padding: 0%; margin: 0%;}
+#box{                         /* 控制最外层的大盒子 */
+    width: 660px;
+    height: 660px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 50px auto 0;
+}
+.header{                 /* 控制标题 */
+    font-size: 22px;
+    color: #0b0b0b;
+    padding-bottom: 30px;
+}
+.header span{            /* 控制标题中的小号字体 */
+    font-size: 12px;
+    font-weight: normal;
+}
+td{padding-bottom: 26px;}
+td.left{
+    width: 78px;
+    text-align: right;   /* 使提示信息居右对其 */
+    padding-right: 8px;  /* 拉来提示信息和表单控件间的距离 */
+}
+.red{color: #f00;}
+.txt01,.txt02{
+    width: 264px;
+    height: 12px;
+    padding: 3px 3px 3px 26px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    color: #949494;
+}
+.txt01{
+    background: url(D:\第7章案例素材\3.png) no-repeat 2px center;
+}
+.txt02{
+    background:url(D:\第7章案例素材\4.png) no-repeat 2px center;
+}  
+.txt03{                 /*定义第三个单行文本输入框的样式*/
+	width:122px;
+	height:12px;
+	padding:3px 3px 3px 26px;
+	font-size:12px;
+	background:url(img/email.png) no-repeat 2px center;
+}
+.course{ width:184px;}  /*定义下拉菜单的宽度*/
+.message{                 /*定义多行文本输入框的样式*/
+	width:432px;
+	height:164px;
+	font-size:12px;
+	color:#949494;
+	padding:3px;
+}
+
